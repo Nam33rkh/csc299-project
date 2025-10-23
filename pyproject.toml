@@ -1,0 +1,14 @@
+[tool]
+name = "task-cli"
+version = "0.1.0"
+description = "A command-line application for managing tasks."
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependencies]
+# Add any dependencies required for your project here
+# e.g., click = "^8.0" for command-line interface
