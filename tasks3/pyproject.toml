@@ -1,12 +1,14 @@
 [project]
 name = "tasks3"
 version = "0.1.0"
-description = "Add your description here"
+description = "Tiny JSON task manager with tests"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = []
 
-[dependency-groups]
-dev = [
-    "pytest>=9.0.1",
-]
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+tasks3 = "tasks3.__init__:main"
