@@ -1,0 +1,18 @@
+[project]
+name = "tasks5"
+version = "0.1.0"
+description = "Spec-kit based CLI tasks manager"
+requires-python = ">=3.10"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.1",
+]
+
+[project.scripts]
+tasks5 = "tasks5.__init__:main"
